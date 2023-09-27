@@ -1,0 +1,25 @@
+{
+  "name": "@geodis/testsemanticrelease",
+  "version": "1.0.0",
+  "description": "test semantic release",
+  "main": "index.js",
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
+  "repository": {"url":"https://github.com/kervoaz/testSemanticRelease.git"},
+  "publishConfig": {
+    "access": "public"
+  },
+  "release": {
+    "branches": ["main", "next","feature/deployGeodis"]
+  },
+  "files": [ "./*" ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/gitlab": "^12.0.6",
+    "@semantic-release/npm": "^11.0.0",
+    "semantic-release": "^22.0.5"
+  }
+}
