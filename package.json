@@ -10,10 +10,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "release": {
-    "branches": ["master", "next","feature/deployGeodis"]
-    
-  },
   "files": [ "./*" ],
   "author": "zou",
   "license": "ISC",
